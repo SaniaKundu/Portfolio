@@ -372,6 +372,18 @@ function App() {
               {n}
             </button>
           ))}
+          <a
+            href="/assets/Sania_Cv%20final.pdf"
+            download
+            className="mobile-cv"
+            aria-label="Download Sania Kundu's CV"
+          >
+            <Download size={15} />
+            Download CV
+          </a>
+          <button className="primary mobile-connect" onClick={() => go("contact")}>
+            Let's Connect <ChevronRight size={15} />
+          </button>
         </div>
       )}
       <main>
